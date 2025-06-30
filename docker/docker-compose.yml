@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../:/app #Mount local files into container 
+    environment:
+      - ENV=development

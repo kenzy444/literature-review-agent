@@ -1,0 +1,25 @@
+# Ignore virtualenv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git files
+.git
+.gitignore
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Jupyter outputs
+notebooks/
+*.ipynb_checkpoints/
+
+# Data
+*.pdf
+*.csv
+*.json
+*.zip
+*.tar.gz
